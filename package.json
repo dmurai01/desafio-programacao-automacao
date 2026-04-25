@@ -1,0 +1,25 @@
+{
+  "name": "desafio-programacao-automacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js --timeout=200000 --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmurai01/desafio-programacao-automacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dmurai01/desafio-programacao-automacao/issues"
+  },
+  "homepage": "https://github.com/dmurai01/desafio-programacao-automacao#readme",
+  "dependencies": {
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4"
+  }
+}
