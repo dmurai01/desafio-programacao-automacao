@@ -36,10 +36,6 @@ const usuarios = [
     }
 ]
 
-/*
-Construa uma função de para realizar login. Quem usar a função deverá receber uma mensagem dizendo que o login foi realizado com sucesso caso exista um usuário com email e senha iguais aos informados. A função deve dizer que as credenciais expiraram caso expirado for true. A função também tem que dizer que as credenciais estão incorretas caso o email não exista ou a senha esteja incorreta para aquele email.
-*/
-
 export function login(email, senha) {
     if (email != '' && senha != '') {
         for (let i = 0; i < usuarios.length; i++) {
